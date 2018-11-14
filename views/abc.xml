@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_vattu_tree" model="ir.ui.view">
+            <field name="name">VatTu.tree</field>
+            <field name="model">VatTu</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        <record id="view_vattu_form" model="ir.ui.view">
+            <field name="name">VatTu.form</field>
+            <field name="model">VatTu</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group col="4" name="main">
+                            <field name="code"/>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="view_vattu_search" model="ir.ui.view">
+            <field name="name">VatTu.search</field>
+            <field name="model">VatTu</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="code"/>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="act_open_vattu_view">
+            <field name="name">VatTu</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">VatTu</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_vattu_search"/>
+        </record>
+
+        <menuitem id="vattu_menu" name="VatTu"
+action="act_open_vattu_view"/>
+    </data>
+</odoo>

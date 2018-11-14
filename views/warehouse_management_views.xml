@@ -54,11 +54,11 @@
             <field name="view_mode">form</field>
             <field name="view_id" ref="view_groupsupplies_form"/>
         </record>
-        <record model="ir.actions.act_window.view" id="act_open_vnitpro_base_currency_view_tree">
-            <field name="act_window_id" ref="act_open_vnitpro_base_currency_view"/>
+        <record model="ir.actions.act_window.view" id="act_open_vattu_view_tree">
+            <field name="act_window_id" ref="act_open_vattu_view"/>
             <field name="sequence" eval="10"/>
             <field name="view_mode">tree</field>
-            <field name="view_id" ref="view_vnitpro_base_currency_tree"/>
+            <field name="view_id" ref="view_vattu_tree"/>
         </record>
     </data>
 </odoo>
