@@ -49,7 +49,5 @@
             <field name="domain">[]</field>
             <field name="context">{}</field>
         </record>
-         <menuitem id="groupsupplies_menu" name="Nhom Vat Tu"
-                  action="act_open_groupsupplies_view"/>
     </data>
 </odoo>
