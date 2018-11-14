@@ -1,6 +1,6 @@
 <odoo>
  <data>
-	<menuitem id="warehouse_management_menu" name="Kho"
+	<menuitem id="warehouse_management_menu" name="Category"
                   action="act_open_warehouse_management_view"/>
  </data>
 </odoo>
