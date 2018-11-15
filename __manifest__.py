@@ -10,7 +10,8 @@
     'website': 'https://www.facebook.com/bechoibebo',
     'depends': ['base'],
     'data': [
-        'views/warehouse_management_views.xml',
+        'views/warehouse_views.xml',
+        'views/groupsupplies_views.xml',
 	    'menu/warehouse_management_menu.xml',
     ],
     'installable': True,
