@@ -5,6 +5,8 @@
                   action="act_open_warehouse_management_view"/>
 	<menuitem id="groupsupplies_menu"  parent="warehouse_management_menu" name="Groupsupplies"  sequence="2"
                   action="act_open_groupsupplies_view"/>
+	<menuitem id="supplies_menu"  parent="warehouse_management_menu" name="supplies"  sequence="3"
+                  action="act_open_supplies_view"/>
 
  </data>
 </odoo>

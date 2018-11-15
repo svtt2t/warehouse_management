@@ -46,8 +46,5 @@
             <field name="view_mode">tree,form</field>
             <field name="search_view_id" ref="view_supplies_search"/>
         </record>
-
-        <menuitem id="supplies_menu" name="supplies"
-action="act_open_supplies_view"/>
     </data>
 </odoo>
