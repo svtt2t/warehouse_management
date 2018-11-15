@@ -1,3 +1,2 @@
 # -*- coding: utf-8 -*-#
-from . import groupsupplies
-from . import warehouse
+from . import supplies
