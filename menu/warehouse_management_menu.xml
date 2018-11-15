@@ -1,6 +1,12 @@
 <odoo>
  <data>
-	<menuitem id="warehouse_management_menu" name="Category"
+	<menuitem id="warehouse_management_menu"  name="Category"/>
+	<menuitem id="warehouse_menu"  parent="warehouse_management_menu" name="Warehouse"  sequence="1"
                   action="act_open_warehouse_management_view"/>
+	<menuitem id="groupsupplies_menu"  parent="warehouse_management_menu" name="Groupsupplies"  sequence="2"
+                  action="act_open_groupsupplies_view"/>
+
  </data>
 </odoo>
+
+
