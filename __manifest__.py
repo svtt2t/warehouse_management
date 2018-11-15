@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'supplies'
+    'name': Warehouse management
     'description': 'Warehouse management',
     'summary': 'Warehouse',
     'category': 'Warehouse',
