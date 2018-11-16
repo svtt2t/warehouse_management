@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': Warehouse management
+    'name': 'Warehouse management' ,
     'description': 'Warehouse management',
     'summary': 'Warehouse',
     'category': 'Warehouse',
@@ -10,6 +10,7 @@
     'website': 'https://www.facebook.com/bechoibebo',
     'depends': ['base'],
     'data': [
+        'views/xuatvt_views.xml',
         'views/ab.xml',
         'views/warehouse_views.xml',
         'views/groupsupplies_views.xml',

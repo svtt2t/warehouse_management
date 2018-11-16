@@ -2,3 +2,4 @@
 from . import warehouse
 from . import groupsupplies
 from . import supplies
+from . import xuatvt

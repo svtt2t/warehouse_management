@@ -7,6 +7,8 @@
                   action="act_open_groupsupplies_view"/>
 	<menuitem id="supplies_menu"  parent="warehouse_management_menu" name="supplies"  sequence="3"
                   action="act_open_supplies_view"/>
+                   <menuitem id="xuatvt_menu"  name="Exportingsupplies"   sequence="1"
+                   action="act_open_xuatvt_view"/>
 
  </data>
 </odoo>
