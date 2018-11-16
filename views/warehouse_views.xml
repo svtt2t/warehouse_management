@@ -9,6 +9,7 @@
                 <tree>
                     <field name="code"/>
                     <field name="name"/>
+                    <field name="compute_name"/>
                 </tree>
             </field>
         </record>
@@ -22,6 +23,7 @@
                         <group col="4" name="main">
                             <field name="code" />
                             <field name="name" />
+                            <field name="compute_name"/>
                         </group>
                     </sheet>
                 </form>
@@ -35,6 +37,7 @@
                 <search>
                     <field name="name"/>
                     <field name="code"/>
+                    <field name="compute_name"/>
                 </search>
             </field>
         </record>
