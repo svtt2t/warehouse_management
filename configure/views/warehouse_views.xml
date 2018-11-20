@@ -39,7 +39,7 @@
             </field>
         </record>
         <record model="ir.actions.act_window" id="act_open_warehouse_management_view">
-            <field name="name">warehouse_management</field>
+            <field name="name">warehouse</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">warehouse_management</field>
             <field name="view_type">form</field>

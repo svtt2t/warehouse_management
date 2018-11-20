@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'supplies'
+    'name': 'Warehouse Management',
     'description': 'Warehouse management',
     'summary': 'Warehouse',
     'category': 'Warehouse',
-    "sequence": 2,
+    "sequence": 1,
     'version': '1.0.0',
     'author': 'Nam Nam',
     'website': 'https://www.facebook.com/bechoibebo',
-    'depends': ['base'],
+    'depends': ['configure'],
     'data': [
-        'views/ab.xml',
-        'views/warehouse_views.xml',
-        'views/groupsupplies_views.xml',
-	    'menu/warehouse_management_menu.xml',
+        'views/importsupplies_views.xml',
+        'menu/warehouse_management_menu.xml',
     ],
     'installable': True,
     'auto_install': False,

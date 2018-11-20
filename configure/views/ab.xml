@@ -4,24 +4,26 @@
         <record id="view_supplies_tree" model="ir.ui.view">
             <field name="name">supplies.tree</field>
             <field name="model">supplies</field>
-            <field name="priority" eval="8"/>
+            <field name="priority" eval="1"/>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
                     <field name="code"/>
+                    <field name="name"/>
+		            <field name="group_supplies"/>
                 </tree>
             </field>
         </record>
         <record id="view_supplies_form" model="ir.ui.view">
             <field name="name">supplies.form</field>
             <field name="model">supplies</field>
-            <field name="priority" eval="8"/>
+            <field name="priority" eval="4"/>
             <field name="arch" type="xml">
                 <form>
                     <sheet>
-                        <group col="4" name="main">
-                            <field name="name"/>
-                            <field name="code"/>
+                        <group col="6" name="main">
+                            <field name="code" colspan="2"/>
+                            <field name="name" colspan="2"/>
+			                <field name="group_supplies"/>
                         </group>
                     </sheet>
                 </form>
@@ -30,16 +32,17 @@
         <record id="view_supplies_search" model="ir.ui.view">
             <field name="name">supplies.search</field>
             <field name="model">supplies</field>
-            <field name="priority" eval="8"/>
+            <field name="priority" eval="4"/>
             <field name="arch" type="xml">
                 <search>
                     <field name="name"/>
                     <field name="code"/>
+		            <field name="group_supplies"/>
                 </search>
             </field>
         </record>
         <record model="ir.actions.act_window" id="act_open_supplies_view">
-            <field name="name">supplies</field>
+            <field name="name">Supplies</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">supplies</field>
             <field name="view_type">form</field>
