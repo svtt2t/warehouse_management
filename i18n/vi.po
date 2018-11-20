@@ -1,0 +1,189 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* warehouse_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-19 09:30+0000\n"
+"PO-Revision-Date: 2018-11-19 09:30+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: warehouse_management
+#: model:ir.ui.menu,name:warehouse_management.warehouse_management_menu
+msgid "Category"
+msgstr "Danh mục"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_code
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_code
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_code
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_code
+msgid "Code"
+msgstr "Mã"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_compute_name
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_compute_name
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_compute_name
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_compute_name
+msgid "Compute Name"
+msgstr "Tổng quan"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_create_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_create_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_create_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_create_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_create_date
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_create_date
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_create_date
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_create_date
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_create_date
+msgid "Created on"
+msgstr "Thời điểm tạo"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_details_ids
+msgid "Details"
+msgstr "Chi tiết"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_display_name
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_display_name
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_display_name
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_display_name
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: warehouse_management
+#: model:ir.actions.act_window,name:warehouse_management.act_open_xuatvt_view
+#: model:ir.ui.menu,name:warehouse_management.xuatvt_menu
+msgid "Exportingsupplies"
+msgstr "Xuất vật tư"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_groupsupplies_id
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_group_supplies
+msgid "Group Supplies"
+msgstr "Nhóm vật tư"
+
+#. module: warehouse_management
+#: model:ir.ui.menu,name:warehouse_management.groupsupplies_menu
+msgid "Groupsupplies"
+msgstr "Nhóm vật tư"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_id
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_id
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_id
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_id
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_id
+msgid "ID"
+msgstr "ID"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details___last_update
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies___last_update
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies___last_update
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management___last_update
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_write_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_write_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_write_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_write_uid
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_write_date
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_write_date
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_write_date
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_write_date
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_groupsupplies_name
+#: model:ir.model.fields,field_description:warehouse_management.field_supplies_name
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_Exportingsupplies_id
+msgid "Name Exportingsupplies"
+msgstr "Name Xuất vật tư"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_warehouse_management_name
+msgid "Name Warehouse"
+msgstr "Tên kho"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_quantity_id
+msgid "Number"
+msgstr "Số lượng"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_details_supplies_id
+msgid "Supplies"
+msgstr "Vật tư"
+
+#. module: warehouse_management
+#: model:ir.ui.menu,name:warehouse_management.warehouse_menu
+msgid "Warehouse"
+msgstr "Kho"
+
+#. module: warehouse_management
+#: model:ir.model,name:warehouse_management.model_details
+msgid "details"
+msgstr "Chi tiết"
+
+#. module: warehouse_management
+#: model:ir.actions.act_window,name:warehouse_management.act_open_groupsupplies_view
+#: model:ir.model,name:warehouse_management.model_groupsupplies
+msgid "groupsupplies"
+msgstr "Nhóm vật tư"
+
+#. module: warehouse_management
+#: model:ir.actions.act_window,name:warehouse_management.act_open_supplies_view
+#: model:ir.model,name:warehouse_management.model_supplies
+#: model:ir.ui.menu,name:warehouse_management.supplies_menu
+msgid "supplies"
+msgstr "Vật tư"
+
+#. module: warehouse_management
+#: model:ir.model.fields,field_description:warehouse_management.field_xuatvt_warehouse_id
+msgid "warehouse"
+msgstr "Kho vật tư"
+
+#. module: warehouse_management
+#: model:ir.actions.act_window,name:warehouse_management.act_open_warehouse_management_view
+#: model:ir.model,name:warehouse_management.model_warehouse_management
+msgid "warehouse_management"
+msgstr "Quản lý kho"
+
+#. module: warehouse_management
+#: model:ir.model,name:warehouse_management.model_xuatvt
+msgid "xuatvt"
+msgstr "xuatvt"
+

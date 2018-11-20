@@ -6,9 +6,11 @@ class DinhPham(models.Model):
 
     name = fields.Char(string="Name", required=True)
     code = fields.Char()
-    compute_name = fields.Char('compute_name')
+    compute_name = fields.Char(compute='_compute_name')
+    group_supplies = fields.Many2one('groupsupplies')
 
-    @api.onchange('name', 'code')
-    def _onchange_compute_name(self):
+
+    @api.depends('name', 'code')
+    def _compute_name(self):
         if self.code and self.name:
             self.compute_name = self.code + ' - ' + self.name
