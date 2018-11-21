@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <menuitem id="warehouse_management_menu" name="Warehouse Management" sequence="1"/>
+        <menuitem id="category_menu" parent="warehouse_management_menu" name="Category"/>
+
+        <menuitem id="warehouse_menu" parent="category_menu" name="Warehouse" sequence="1"
+                  action="configure.act_open_warehouse_management_view"/>
+
+        <menuitem id="groupsupplies_menu" parent="category_menu" name="Groupsupplies" sequence="2"
+                  action="configure.act_open_groupsupplies_view"/>
+
+        <menuitem id="supplies_menu" parent="category_menu" name="Supplies" sequence="3"
+                  action="configure.act_open_supplies_view"/>
+
+        <menuitem id="importsupplies_menu" parent="warehouse_management_menu" name="Import supplies" sequence="4"
+                  action="act_open_importsupplies_view"/>
+        <menuitem id="exportingsupplies_menu" parent="warehouse_management_menu" name="Exportingsupplies" sequence="5"
+                  action="act_open_exporting_view"/>
+
+    </data>
+</odoo>
+
+

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
-        <record id="view_xuatvt_tree" model="ir.ui.view">
-            <field name="name">xuatvt.tree</field>
-            <field name="model">xuatvt</field>
+        <record id="view_exporting_tree" model="ir.ui.view">
+            <field name="name">vnitpro.exporting.tree</field>
+            <field name="model">vnitpro.exporting</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <tree>
@@ -15,9 +15,9 @@
                 </tree>
             </field>
         </record>
-        <record id="view_xuatvt_form" model="ir.ui.view">
-            <field name="name">xuatvt.form</field>
-            <field name="model">xuatvt</field>
+        <record id="view_exporting_form" model="ir.ui.view">
+            <field name="name">vnitpro.exporting.form</field>
+            <field name="model">vnitpro.exporting</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <form>
@@ -28,8 +28,8 @@
                             <field name="warehouse_id"/>
                             <field name="compute_name"/>
                         </group>
-                        <group>
-                            <field name="details_ids">
+                        <group string="Details">
+                            <field name="details_ids" nolabel="1">
                                 <tree editable="bottom">
                                     <field name="supplies_id"/>
                                     <field name="groupsupplies_id"/>
@@ -41,9 +41,9 @@
                 </form>
             </field>
         </record>
-        <record id="view_xuatvt_search" model="ir.ui.view">
-            <field name="name">xuatvt.search</field>
-            <field name="model">xuatvt</field>
+        <record id="view_exporting_search" model="ir.ui.view">
+            <field name="name">vnitpro.exporting.search</field>
+            <field name="model">vnitpro.exporting</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <search>
@@ -54,13 +54,13 @@
                 </search>
             </field>
         </record>
-        <record model="ir.actions.act_window" id="act_open_xuatvt_view">
-            <field name="name">Exportingsupplies</field>
+        <record model="ir.actions.act_window" id="act_open_exporting_view">
+            <field name="name">Exporting</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">xuatvt</field>
+            <field name="res_model">vnitpro.exporting</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
-            <field name="search_view_id" ref="view_xuatvt_search"/>
+            <field name="search_view_id" ref="view_exporting_search"/>
             <field name="domain">[]</field>
             <field name="context">{}</field>
         </record>

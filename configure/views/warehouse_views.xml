@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
- <data>
+    <data>
         <record id="view_warehouse_management_tree" model="ir.ui.view">
-            <field name="name">warehouse_management.tree</field>
-            <field name="model">warehouse_management</field>
+            <field name="name">vnitpro.warehouse_management.tree</field>
+            <field name="model">vnitpro.warehouse_management</field>
             <field name="priority" eval="1"/>
             <field name="arch" type="xml">
                 <tree>
@@ -14,15 +14,15 @@
             </field>
         </record>
         <record id="view_warehouse_management_form" model="ir.ui.view">
-            <field name="name">warehouse_management.form</field>
-            <field name="model">warehouse_management</field>
+            <field name="name">vnitpro.warehouse_management.form</field>
+            <field name="model">vnitpro.warehouse_management</field>
             <field name="priority" eval="2"/>
             <field name="arch" type="xml">
                 <form>
                     <sheet>
                         <group col="4" name="main">
-                            <field name="code" />
-                            <field name="name" />
+                            <field name="code"/>
+                            <field name="name"/>
                             <field name="compute_name"/>
                         </group>
                     </sheet>
@@ -30,8 +30,8 @@
             </field>
         </record>
         <record id="view_warehouse_management_search" model="ir.ui.view">
-            <field name="name">warehouse_management.search</field>
-            <field name="model">warehouse_management</field>
+            <field name="name">vnitpro.warehouse_management.search</field>
+            <field name="model">vnitpro.warehouse_management</field>
             <field name="priority" eval="3"/>
             <field name="arch" type="xml">
                 <search>
@@ -42,15 +42,15 @@
             </field>
         </record>
         <record model="ir.actions.act_window" id="act_open_warehouse_management_view">
-            <field name="name">warehouse_management</field>
+            <field name="name">Warehouse</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">warehouse_management</field>
+            <field name="res_model">vnitpro.warehouse_management</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="search_view_id" ref="view_warehouse_management_search"/>
             <field name="domain">[]</field>
             <field name="context">{}</field>
         </record>
-       
+
     </data>
 </odoo>

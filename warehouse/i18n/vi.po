@@ -1,0 +1,190 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* warehouse
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-20 07:30+0000\n"
+"PO-Revision-Date: 2018-11-20 07:30+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: warehouse
+#: model:ir.ui.menu,name:warehouse.category_menu
+msgid "Category"
+msgstr "Danh mục"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_code
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_code
+msgid "Code"
+msgstr "Mã"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_compute_name
+msgid "Compute_name"
+msgstr "Tổng quan"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_create_uid
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_create_uid
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_create_date
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_create_date
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_create_date
+msgid "Created on"
+msgstr "Thời điểm tạo"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_details_ids
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_details_ids
+#: model:ir.ui.view,arch_db:warehouse.view_exporting_form
+#: model:ir.ui.view,arch_db:warehouse.view_importsupplies_form
+msgid "Details"
+msgstr "Chi tiết"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_display_name
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_display_name
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: warehouse
+#: model:ir.actions.act_window,name:warehouse.act_open_exporting_view
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_importsupplies_id
+msgid "Exporting"
+msgstr "Xuất"
+
+#. module: warehouse
+#: model:ir.ui.menu,name:warehouse.exportingsupplies_menu
+msgid "Exportingsupplies"
+msgstr "Xuất vật tư"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_groupsupplies_id
+msgid "Group Supplies"
+msgstr "Nhóm vật tư"
+
+#. module: warehouse
+#: model:ir.ui.menu,name:warehouse.groupsupplies_menu
+msgid "Groupsupplies"
+msgstr "Nhóm vật tư"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_id
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_id
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_id
+msgid "ID"
+msgstr "ID"
+
+#. module: warehouse
+#: model:ir.ui.menu,name:warehouse.importsupplies_menu
+msgid "Import supplies"
+msgstr "Nhập vật tư"
+
+#. module: warehouse
+#: model:ir.actions.act_window,name:warehouse.act_open_importsupplies_view
+msgid "Importsupplies"
+msgstr "Nhập vật tư"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details___last_update
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting___last_update
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_write_uid
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_write_uid
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_write_date
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_write_date
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_name
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_quantity_id
+msgid "Number"
+msgstr "Số lượng"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_details_supplies_id
+#: model:ir.ui.menu,name:warehouse.supplies_menu
+msgid "Supplies"
+msgstr "Vật tư"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_exporting_warehouse_id
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_warehouse_id
+#: model:ir.ui.menu,name:warehouse.warehouse_menu
+msgid "Warehouse"
+msgstr "Kho"
+
+#. module: warehouse
+#: model:ir.ui.menu,name:warehouse.warehouse_management_menu
+msgid "Warehouse Management"
+msgstr "Quản lý kho vật tư"
+
+#. module: warehouse
+#: model:ir.model.fields,field_description:warehouse.field_vnitpro_importsupplies_compute_name
+msgid "compute_name"
+msgstr "Tổng quan"
+
+#. module: warehouse
+#: model:ir.model,name:warehouse.model_details
+msgid "details"
+msgstr "Chi tiết"
+
+#. module: warehouse
+#: model:ir.model,name:warehouse.model_exporting
+msgid "exporting"
+msgstr "Xuất"
+
+#. module: warehouse
+#: model:ir.model,name:warehouse.model_importsupplies
+msgid "importsupplies"
+msgstr "Nhập vật tư"
+
+#. module: warehouse
+#: model:ir.model,name:warehouse.model_vnitpro_details
+msgid "vnitpro.details"
+msgstr "vnitpro.Chi tiết"
+
+#. module: warehouse
+#: model:ir.model,name:warehouse.model_vnitpro_exporting
+msgid "vnitpro.exporting"
+msgstr "vnitpro.Nhập"
+
+#. module: warehouse
+#: model:ir.model,name:warehouse.model_vnitpro_importsupplies
+msgid "vnitpro.importsupplies"
+msgstr "vnitpro.Nhập vật tư"
+
+#. module: warehouse
+#: model:ir.model,name:warehouse.model_xuatvt
+msgid "xuatvt"
+msgstr "xuatvt"
+

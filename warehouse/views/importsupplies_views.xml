@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_importsupplies_tree" model="ir.ui.view">
+            <field name="name">vnitpro.importsupplies.tree</field>
+            <field name="model">vnitpro.importsupplies</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="warehouse_id"/>
+                    <field name="compute_name"/>
+                </tree>
+            </field>
+        </record>
+        <record id="view_importsupplies_form" model="ir.ui.view">
+            <field name="name">vnitpro.importsupplies.form</field>
+            <field name="model">vnitpro.importsupplies</field>
+            <field name="priority" eval="4"/>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group col="4" name="main">
+                            <field name="code" colspan="2"/>
+                            <field name="name"/>
+                            <field name="warehouse_id"/>
+                            <field name="compute_name"/>
+                        </group>
+                        <group string="Details">
+                            <field name="details_ids" nolabel="1">
+                                <tree editable="bottom">
+                                    <field name="supplies_id"/>
+                                    <field name="groupsupplies_id"/>
+                                    <field name="quantity_id"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="view_importsupplies_search" model="ir.ui.view">
+            <field name="name">vnitpro.importsupplies.search</field>
+            <field name="model">vnitpro.importsupplies</field>
+            <field name="priority" eval="4"/>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="warehouse_id"/>
+                    <field name="compute_name"/>
+                </search>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="act_open_importsupplies_view">
+            <field name="name">Importsupplies</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vnitpro.importsupplies</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_importsupplies_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+    </data>
+</odoo>

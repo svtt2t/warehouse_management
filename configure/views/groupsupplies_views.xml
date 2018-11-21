@@ -2,8 +2,8 @@
 <odoo>
     <data>
         <record id="view_groupsupplies_tree" model="ir.ui.view">
-            <field name="name">groupsupplies.tree</field>
-            <field name="model">groupsupplies</field>
+            <field name="name">vnitpro.groupsupplies.tree</field>
+            <field name="model">vnitpro.groupsupplies</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <tree>
@@ -14,16 +14,16 @@
             </field>
         </record>
         <record id="view_groupsupplies_form" model="ir.ui.view">
-            <field name="name">groupsupplies.form</field>
-            <field name="model">groupsupplies</field>
+            <field name="name">vnitpro.groupsupplies.form</field>
+            <field name="model">vnitpro.groupsupplies</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <form>
 
                     <sheet>
-                        <group col = "8" name="main">
+                        <group col="8" name="main">
                             <field name="code"/>
-                            <field name="name" />
+                            <field name="name"/>
                             <field name="compute_name"/>
                         </group>
                     </sheet>
@@ -31,8 +31,8 @@
             </field>
         </record>
         <record id="view_groupsupplies_search" model="ir.ui.view">
-            <field name="name">groupsupplies.search</field>
-            <field name="model">groupsupplies</field>
+            <field name="name">vnitpro.groupsupplies.search</field>
+            <field name="model">vnitpro.groupsupplies</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <search>
@@ -43,9 +43,9 @@
             </field>
         </record>
         <record model="ir.actions.act_window" id="act_open_groupsupplies_view">
-            <field name="name">groupsupplies</field>
+            <field name="name">Groupsupplies</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">groupsupplies</field>
+            <field name="res_model">vnitpro.groupsupplies</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="search_view_id" ref="view_groupsupplies_search"/>
