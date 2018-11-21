@@ -4,11 +4,10 @@ from odoo import api, models, fields
 class supplies(models.Model):
     _name = 'vnitpro.supplies'
 
-    code = fields.Char(string="Code Supplies", required=True)
-    name = fields.Char(string="Name Supplies", required=True)
+    code = fields.Char("Code Supplies", required=True)
+    name = fields.Char("Name Supplies", required=True)
     group_supplies = fields.Many2one('vnitpro.groupsupplies')
-    # importsupplies_id = fields.Many2one('importsupplies', string="importsupplies")
-    compute_name = fields.Char('Compute_name')
+    compute_name = fields.Char('Compute Name')
 
     @api.depends('code', 'name')
     def _compute_name(self):
