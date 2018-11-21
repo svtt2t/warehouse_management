@@ -6,7 +6,7 @@
     'category': 'Warehouse',
     "sequence": 1,
     'version': '1.0.0',
-    'author': 'Nam,Minh,Dinh',
+    'author': 'Nam Nam',
     'website': 'https://www.facebook.com/bechoibebo',
     'depends': ['base'],
     'data': [
